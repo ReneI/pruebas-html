@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,UAAU;EACN,UAAU,EARN,OAAO;EASX,YAAY,EAVT,OAAO",
+"sources": ["../sass/contenido.scss"],
+"names": [],
+"file": "contenido.css"
+}

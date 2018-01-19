@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js.js"></script>
+
+</head>
+<body>
+    <!-- 
+ /* http://www.outofscope.com/css-only-menu-toggle-no-javascript-required/*/
+--> 
+<form name="miForm" onsubmit="return Validar();">
+    <input type="checkbox" name="mi" id="miID"/>
+    <input type="submit" name="sub" value="Enviar"/>
+</form>
+<div id="info"></div>
+<div class="hola">jjjjjjjjjjjjjjjjjjjjjjj</div>
+<a href="www.google.com">www.google.com</a>
+
+<a href="www.google.com" class="mil">www.google.com</a>
+<a href="www.google.com" class="mil">www.goog</a>
+<button onclick="cambiar();">lllllllllllllll</button>
+<div id="ho">ooo</div>
+
+<script type="text/javascript">
+
+var persona= {"nombre": "Homero","Familia":"Simpsons" };
+
+document.write(persona.nombre);
+
+function cambiar(){
+document.querySelector(".mil").style.color="gray";
+}
+function Validar(){
+    var elemento= document.forms["miForm"]["mi"].checked;
+
+if(elemento == true){
+
+    document.getElementById("ho").innerHTML= "jjjjjjjjjjjjjjjj";
+    return false;
+}
+        else
+    {
+  document.getElementById("ho").innerHTML= "ddddddddddddd";
+ 
+    return false;
+
+    }
+}
+</script>
+
+</body>
+</html>

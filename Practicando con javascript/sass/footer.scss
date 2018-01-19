@@ -1,0 +1,16 @@
+$colorfooter:#F1F864;
+$colorffondo:#BCEB3C;
+$colorffondo2:#7CBD1E;
+
+footer{
+    background: $colorffondo;
+
+    color: red;
+    h4 {
+
+        color: aqua;
+        a{
+        color: azure;
+        }
+    }
+}

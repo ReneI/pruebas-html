@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+footer {
+  background: #BCEB3C;
+  color: red; }
+  footer h4 {
+    color: aqua; }
+    footer h4 a {
+      color: azure; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 2em;
+  height: 75px;
+  z-index: 2;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+  .header--scrolled {
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+  .header--move-up {
+    transform: translateY(-75px);
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+  .header__logo {
+    color: #000; }
+  .header__link {
+    margin-left: 1em;
+    color: #000; }
+
+.container {
+  background: #FCF9F9;
+  border-color: #F1F864; }
+
+h1 {
+  background: #fff; }
+
+/*# sourceMappingURL=estilos.css.map */

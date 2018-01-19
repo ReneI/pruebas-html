@@ -1,0 +1,13 @@
+$borde:#F1F864;
+$fondo1:#FCF9F9;
+$fondo2:#BCEB3C;
+$fondo3:#7CBD1E;
+@mixin fotos{
+    
+
+}
+.container{
+    background: $fondo1;
+    border-color: $borde;
+
+}

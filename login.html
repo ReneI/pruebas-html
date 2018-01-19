@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+    <div class="login-input">
+        <div class="login-cara">
+
+<img src="imgres.jpg" alt="">
+
+        </div>
+    
+ 	<section class="form">
+		<form>
+			<div class="input uname">
+				<input type="text" id="username" placeholder="Username" required/>
+				<i class="fa fa-user"></i>
+			</div>
+			<div class="input pass">
+				<input type="password" id="password" placeholder="Password" required/>
+				<i class="fa fa-lock"></i>
+			</div>
+			<a href="#" style="float:right;color:gray;font-size:14px;text-decoration:none;
+			font-family:san-serif,Arial;margin-bottom:10px;">Lost Your Password?</a>
+			<p class="error-msg">Wrong Credential</p>
+			<div class="botones">
+				<input type="submit" id="login" value="Log in"  />
+                	<input type="submit" id="login" value="Log in"  />
+			</div>
+			    
+		</form>
+       <div class="botones">
+        
+    <a class="ghost-button" href="#">Olvido </a>
+     <a class="ghost-button" href="#">Olvido </a>
+    </div>  
+	</section>
+   
+
+       </div>
+       <script type="text/javascript">
+$(document).ready(function(){
+	$("#login").click(function(){
+		if($("#username").val() == ""){
+			$(".input").addClass("error");
+			$("#username").css({"border":"2px solid red"});
+		}
+		if($("#password").val() == ""){
+			$(".pass").addClass("error");
+		}
+
+	})
+	$(".input").click(function(){
+		$(".input").removeClass("error");
+		$("#username").css({"border":"2px solid #ddd"});
+	})
+})
+</script>
+</body>
+</html>
